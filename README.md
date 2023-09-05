@@ -25,25 +25,34 @@ In order for us to be able to work with this dataset we had to do some modificat
 ## Models
 ### Data Preprocessing
 In order for us to be able to use our entire dataset, we needed to change some categorical variables into numerical with the help of dummy variables. 
+
 ![image](https://github.com/OlivaVe/project4_team7/assets/127780305/6d1d15d2-b250-41c6-a589-176afdb5479a)
 
 In addition to that we needed to divide the dataset into the test data and the trained data, just after that we were able to Standarize the values using the StandardScaler function.
+
 ![image](https://github.com/OlivaVe/project4_team7/assets/127780305/319fb603-20e1-4694-ae8d-ee222a0880bd)
 
 We explored various architectural configurations and hyperparameters. Our approach involved the creation of four distinct models, each with carefully modified attributes, aimed at enhancing our predictive power. 
 
 We started with a model that was using all of our 30 features available.
+
 ![image](https://github.com/OlivaVe/project4_team7/assets/127780305/5049228d-6f0c-4d82-8b5a-5516d3d5e578)
 
 Then we decidede to include a RandomForest into the mixture so that we were able to identify the most influential features of our dataset and see if it would improve our model Accuracy.
+
 ![image](https://github.com/OlivaVe/project4_team7/assets/127780305/1a38fbd5-538a-4d18-b6ac-bb7ccfd3740a)
 
 We modified the quantity of layers, optimizer selection, activation function variations, fine-tuning of neuron quantities and training epochs. These meticulous adjustments collectively contributed to the enhancement of our Credit Card Approval Prediction model's accuracy and reliability.
 
 At the end, after 4 different models with different paramenters, we got the following results:
+
 ![image](https://github.com/OlivaVe/project4_team7/assets/127780305/13480a62-0fca-47f1-a1b3-bdaee0a41fe4)
 
 ## Results
 We achieved remarkable results. While the accuracy of all models was good, the highest accuracy we attained was 98.51%. This means that our predictive power in assessing credit card approval significantly improved through careful model architecture selection, hyperparameter tuning, and optimization.
+
+In addition to our predictive model, we decided to do some internal digging of our dataset to see how the approval rate changes with different demopgraphic parameters.
+
+Here is our full tableau project: https://public.tableau.com/views/Project4_team7/Story1
 ## Conclusion
 Our project not only seeks to develop an accurate predictive model but also aims to uncover hidden insights within these crucial dataset columns. By harnessing the power of data science, machine learning, and statistical analysis, we aspire to empower credit card companies with the tools they need to make informed and equitable lending decisions. 
