@@ -56,3 +56,7 @@ In addition to our predictive model, we decided to do some internal digging of o
 Here is our full tableau project: https://public.tableau.com/views/Project4_team7/Story1
 ## Conclusion
 Our project not only seeks to develop an accurate predictive model but also aims to uncover hidden insights within these crucial dataset columns. By harnessing the power of data science, machine learning, and statistical analysis, we aspire to empower credit card companies with the tools they need to make informed and equitable lending decisions. 
+
+## LINK TO OUR FULL CODE IN GOOGLE COLAB
+
+https://colab.research.google.com/drive/1Wi8PZy_lvLH_RZFDXy9EYxv7S14Bi44M?usp=sharing
