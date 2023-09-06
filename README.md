@@ -38,7 +38,7 @@ We started with a model that was using all of our 30 features available.
 
 ![image](https://github.com/OlivaVe/project4_team7/assets/127780305/5049228d-6f0c-4d82-8b5a-5516d3d5e578)
 
-Then we decidede to include a RandomForest into the mixture so that we were able to identify the most influential features of our dataset and see if it would improve our model Accuracy.
+As we got a really big number in the Accuracy model, we decided to check if it was a case of overfitting, so we decidede to include a RandomForest into the mixture to be able to identify the most influential features of our dataset and see if it would improve our model Accuracy.
 
 ![image](https://github.com/OlivaVe/project4_team7/assets/127780305/1a38fbd5-538a-4d18-b6ac-bb7ccfd3740a)
 
